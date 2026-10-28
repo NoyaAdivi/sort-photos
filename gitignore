@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Output of the script - never commit personal photos or results
+results.csv
+Sorted/
+documents/
+photos/
+uncertain/
+
+# Images (safety net so photos are never committed by accident)
+*.jpg
+*.jpeg
+*.png
+*.heic
+*.heif
+*.webp
+*.tif
+*.tiff
+*.bmp
+*.gif
