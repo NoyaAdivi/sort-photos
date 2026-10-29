@@ -1,4 +1,4 @@
-# sort-photos
+# Sort Photos 🖼️
 
 Sort a large photo collection into **documents** (photographed papers, receipts, screenshots, notes, IDs) and **photos** (people, family, places, food, etc.) using a zero-shot [CLIP](https://github.com/mlfoundations/open_clip) model.
 
@@ -8,13 +8,13 @@ Sort a large photo collection into **documents** (photographed papers, receipts,
 - **Safe by default.** It copies files and does not move them, and the original folder is untouched.
 - **Resumable.** Stop it with Ctrl+C and run the same command again to continue.
 
-## How it works
+## 🧠 How it works
 
 Each image is scored against two groups of text prompts, for example `"a photo of a receipt"` or `"a family photo"`. The group with the highest total probability wins.
 
 If the confidence is below a threshold (0.75 by default), the image goes to `uncertain/` so you can review it by hand.
 
-## Installation
+## ⚙️ Installation
 
 Requires Python 3.9+.
 
@@ -24,7 +24,7 @@ pip install -r requirements.txt
 
 `requirements.txt` installs the CPU-only build of PyTorch, which is much smaller than the GPU build. If you have an NVIDIA GPU, install PyTorch from [pytorch.org](https://pytorch.org/get-started/locally/) first.
 
-## Usage
+## 💻 Usage
 
 Do a dry run on 300 images first. This classifies the images and writes `results.csv`, but copies nothing:
 
@@ -65,18 +65,18 @@ Corrupt or unreadable files are logged as `error` in `results.csv` and are not c
 | `--workers N` | Threads used for loading images (default: number of CPU cores) |
 | `--threads N` | CPU threads used by PyTorch (default: all cores) |
 
-## Improving accuracy
+## 🎯 Improving accuracy
 
 Edit the `CATEGORIES` dictionary at the top of `sort_photos.py`. If a certain kind of image keeps being misclassified, add a prompt that describes it to the right group, for example `"a photo of a medical prescription"` under `documents`.
 
 You can also add a new group, such as `"screenshots"`, and it will get its own output folder automatically.
 
-## Performance
+## ⚡ Performance
 
 Speed depends on your CPU. The progress bar shows images per second. On an older 2–4 core laptop, expect roughly 30–90 minutes for 40,000 images. Run a dry run with `--limit 300` to see the speed on your machine.
 
 The first run downloads the model, which is about 600 MB.
 
-## Supported formats
+## 🗂️ Supported formats
 
 JPG, PNG, BMP, WEBP, TIFF, GIF and HEIC/HEIF. HEIC support comes from the `pillow-heif` package.
