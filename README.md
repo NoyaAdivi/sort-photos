@@ -32,8 +32,12 @@
   </tr>
 </table>
 
+<p align="center">
+  <a href="https://github.com/NoyaAdivi/sort-photos"><img src="docs/readme/showcase-en.png" width="100%" alt="Sort Photos: an offline AI photo classifier"></a>
+</p>
+
 <a name="highlights"></a>
-<p align="center"><a href="#highlights"><img src="docs/readme/highlights-en.svg" width="100%" alt="Highlights"></a></p>
+<p align="center"><a href="sort_photos.py"><img src="docs/readme/highlights-en.svg" width="100%" alt="Highlights"></a></p>
 
 <table>
   <tr valign="top">
@@ -44,7 +48,7 @@
 </table>
 
 <a name="how-it-works"></a>
-<p align="center"><a href="#how-it-works"><img src="docs/readme/how-it-works-en.svg" width="100%" alt="How it works"></a></p>
+<p align="center"><a href="https://github.com/mlfoundations/open_clip"><img src="docs/readme/how-it-works-en.svg" width="100%" alt="How it works"></a></p>
 
 ```mermaid
 flowchart LR
@@ -81,7 +85,7 @@ Corrupt or unreadable files are logged as <code>error</code> in <code>results.cs
 </details>
 
 <a name="tech-stack"></a>
-<p align="center"><a href="#tech-stack"><img src="docs/readme/tech-stack-en.svg" width="100%" alt="Tech Stack"></a></p>
+<p align="center"><a href="requirements.txt"><img src="docs/readme/tech-stack-en.svg" width="100%" alt="Tech Stack"></a></p>
 
 <p align="center">
   <a href="https://www.python.org"><img src="https://img.shields.io/badge/Python-CFE6FA?style=for-the-badge&logo=python&logoColor=3F6D9F" alt="Python"></a>
@@ -92,7 +96,7 @@ Corrupt or unreadable files are logged as <code>error</code> in <code>results.cs
 </p>
 
 <a name="quick-start"></a>
-<p align="center"><a href="#quick-start"><img src="docs/readme/quick-start-en.svg" width="100%" alt="Quick start"></a></p>
+<p align="center"><a href="https://www.python.org/downloads/"><img src="docs/readme/quick-start-en.svg" width="100%" alt="Quick start"></a></p>
 
 Requires **Python 3.9+**. [`requirements.txt`](requirements.txt) installs the small CPU-only build of PyTorch. With an NVIDIA GPU, install PyTorch from [pytorch.org](https://pytorch.org/get-started/locally/) first.
 
@@ -142,7 +146,7 @@ JPG, PNG, BMP, WEBP, TIFF, GIF and HEIC/HEIF (through `pillow-heif`). On an olde
 </details>
 
 <a name="contact"></a>
-<p align="center"><a href="#contact"><img src="docs/readme/footer-en.svg" width="100%" alt="Built by Noya Adivi"></a></p>
+<p align="center"><a href="https://www.linkedin.com/in/noya-adivi/"><img src="docs/readme/footer-en.svg" width="100%" alt="Built by Noya Adivi"></a></p>
 
 <p align="center">
   <a href="https://github.com/NoyaAdivi/sort-photos"><img src="https://img.shields.io/badge/Open_project-FFD5C9?style=for-the-badge&logo=github&logoColor=A8483A" alt="Open project"></a>
