@@ -39,7 +39,7 @@
 </p>
 
 <a name="highlights"></a>
-<p align="center"><a href="sort_photos.py"><img src="docs/readme/highlights-he.svg" width="100%" alt="מה מיוחד בו"></a></p>
+<p align="center"><a href="#how-it-works"><img src="docs/readme/highlights-he.svg" width="100%" alt="מה מיוחד בו"></a></p>
 
 <table>
   <tr valign="top">
@@ -50,7 +50,7 @@
 </table>
 
 <a name="how-it-works"></a>
-<p align="center"><a href="https://github.com/mlfoundations/open_clip"><img src="docs/readme/how-it-works-he.svg" width="100%" alt="איך זה עובד"></a></p>
+<p align="center"><a href="#tech-stack"><img src="docs/readme/how-it-works-he.svg" width="100%" alt="איך זה עובד"></a></p>
 
 ```mermaid
 flowchart RL
@@ -87,7 +87,7 @@ Sorted/
 </details>
 
 <a name="tech-stack"></a>
-<p align="center"><a href="requirements.txt"><img src="docs/readme/tech-stack-he.svg" width="100%" alt="טכנולוגיות"></a></p>
+<p align="center"><a href="#quick-start"><img src="docs/readme/tech-stack-he.svg" width="100%" alt="טכנולוגיות"></a></p>
 
 <p align="center">
   <a href="https://www.python.org"><img src="https://img.shields.io/badge/Python-CFE6FA?style=for-the-badge&logo=python&logoColor=3F6D9F" alt="Python"></a>
@@ -98,7 +98,7 @@ Sorted/
 </p>
 
 <a name="quick-start"></a>
-<p align="center"><a href="https://www.python.org/downloads/"><img src="docs/readme/quick-start-he.svg" width="100%" alt="התחלה מהירה"></a></p>
+<p align="center"><a href="#contact"><img src="docs/readme/quick-start-he.svg" width="100%" alt="התחלה מהירה"></a></p>
 
 צריך **Python 3.9 ומעלה**. הקובץ [`requirements.txt`](requirements.txt) מתקין את הגרסה הקטנה של PyTorch למעבד בלבד. עם כרטיס NVIDIA, מתקינים קודם את PyTorch מ־[pytorch.org](https://pytorch.org/get-started/locally/).
 
