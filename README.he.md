@@ -100,6 +100,8 @@ Sorted/
 <a name="quick-start"></a>
 <p align="center"><a href="#contact"><img src="docs/readme/quick-start-he.svg" width="100%" alt="התחלה מהירה"></a></p>
 
+📘 יש גם [מדריך שימוש מלא בעברית (PDF)](docs/guide-he.pdf).
+
 צריך **Python 3.9 ומעלה**. הקובץ [`requirements.txt`](requirements.txt) מתקין את הגרסה הקטנה של PyTorch למעבד בלבד. עם כרטיס NVIDIA, מתקינים קודם את PyTorch מ־[pytorch.org](https://pytorch.org/get-started/locally/).
 
 ```bash
