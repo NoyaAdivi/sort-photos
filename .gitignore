@@ -22,3 +22,6 @@ uncertain/
 *.tiff
 *.bmp
 *.gif
+
+# README images are allowed
+!docs/readme/*.png
