@@ -108,7 +108,7 @@ pip install -r requirements.txt
    ```bash
    python sort_photos.py "D:\Pictures" "D:\Sorted" --dry-run --limit 300
    ```
-2. **Check** `D:\Sorted\results.csv`, then delete it.
+2. **Check** `D:\Sorted\results.csv` to see how each image was classified, then delete it.
 3. **Sort everything:**
    ```bash
    python sort_photos.py "D:\Pictures" "D:\Sorted"
