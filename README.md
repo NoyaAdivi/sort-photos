@@ -68,7 +68,7 @@ flowchart LR
   style R fill:#DAD5FF,stroke:#5548C8,color:#2C2668
 ```
 
-Each image is scored against two groups of text prompts. The group with the highest total probability wins. Below the threshold (0.75 by default), the image goes to <code>uncertain/</code> for a quick manual check.
+Each image is scored against two groups of text prompts. The group with the higher total probability wins. Below the threshold (0.75 by default), the image goes to <code>uncertain/</code> for a quick manual check.
 
 <a name="output"></a>
 <details open>
